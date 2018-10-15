@@ -1,0 +1,100 @@
+*{margin: 0;
+	padding: 0;
+}
+
+.header {
+	height: 80px;
+	border-top: 2px solid #000c0a;
+	border-bottom: 2px solid #000c0a;
+	background-color: #dadfe8; 
+	position: fixed;
+	top: 0;
+    right: 0;
+    width: 100%;
+
+    }
+.header img {
+	height: 72px;
+	float:left;
+	padding: 4px 1% 0px 18%;
+
+}
+.header h1 {
+	padding: 10px;
+	margin:10px 200px 10px 10px;
+	float: left;
+
+}
+.header ul li {
+    text-decoration-line: underline; 
+	list-style-type: none;
+	float: left;
+	padding: 12px 25px 0px 30px;
+	border-right: 2px solid black;
+	margin-top: 10px;
+
+}
+#student {
+	border: none;
+}
+.header ul li a{
+
+	color: red;
+	font-family: cursive;
+
+}
+.header ul li a:hover{
+	background: green;
+}
+.main {
+	margin: 100px 10% 100px 15%;
+}
+.main1 {
+
+}
+#div1{
+	width: 30%;
+	float: left;
+	padding: 10px;
+}
+
+#div2{
+	width: 30%;
+	float: left;
+	padding: 10px;
+}
+
+#div3{
+	width: 30%;
+	float: left;
+	padding: 10px;
+}
+
+}
+#myBtn{
+	  position: fixed;
+	  border: black;
+	  bottom: 70px;
+	  right: 30px;
+	  border: black;
+	  z-index: 99;
+	  background-color: #EDEDEA;
+	  color: red;
+	  cursor: pointer;
+	  padding: 15px;
+	  border-radius: 4px;
+	  outline: none;
+	  border: 3px solid black;
+	  }
+
+.footer {
+	height: 100px;
+	clear: left;
+	border: 1px solid black;
+	text-align: center;
+	background-color: #0bedc7;
+	font-family: cursive;
+
+
+
+}
